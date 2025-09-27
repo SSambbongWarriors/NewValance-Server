@@ -61,9 +61,9 @@
           add-mappings: false
 
       datasource:
-        url: jdbc:mysql://newvalance-db.c52iwyu86miu.ap-northeast-2.rds.amazonaws.com:3306/newvalance?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
-        username: admin
-        password: TkaQhddnjfldjwmWkd!
+        url: 
+        username: 
+        password: 
         driver-class-name: com.mysql.cj.jdbc.Driver
 
       security:
@@ -121,7 +121,7 @@
       port: 8443
       ssl:
         key-store: classpath:keystore.p12
-        key-store-password: 06050804thyr!!
+        key-store-password: 
         key-store-type: PKCS12
       forward-headers-strategy: native
 
